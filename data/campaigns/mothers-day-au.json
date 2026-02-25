@@ -1,0 +1,36 @@
+{
+  "slug": "mothers-day-au",
+  "locale": "en-AU",
+  "domain": "https://celebratemothersday.com.au",
+  "feverBase": "https://feverup.com",
+  "feverPathTemplate": "https://feverup.com/en/{city}/mothers-day",
+  "feverCandlelightPathTemplate": "https://feverup.com/en/{city}/candlelight-{city}",
+  "outputDataFile": "data/fever-plans-au.json",
+  "cities": [
+    {
+      "slug": "sydney",
+      "name": "Sydney"
+    },
+    {
+      "slug": "melbourne",
+      "name": "Melbourne"
+    }
+  ],
+  "maxExperiencesPerCity": 24,
+  "maxGiftCardsPerCity": 12,
+  "campaignName": "Mother's Day",
+  "countryLabel": "Australia",
+  "siteName": "Celebrate Mother's Day",
+  "countdownType": "none",
+  "copy": {
+    "countdownMessage": "Hurry! {campaignName} is in {days} days.",
+    "heroCta": "See {campaignName} experiences",
+    "seeAllOnFever": "See all on Fever",
+    "breadcrumbHome": "Australia",
+    "heroTitleHome": "Mother's Day 2026 — Gifts, Ideas & Experiences",
+    "heroTitleCity": "Mother's Day in {city} — Gifts & Experiences",
+    "heroImageAltHome": "Mother and daughter having afternoon tea — Mother's Day experience gift",
+    "heroImageAltCity": "Mother and daughter — Mother's Day experience in {city}",
+    "heroImageAltSubpage": "Mother and daughter — Mother's Day {topic} in {city}"
+  }
+}
